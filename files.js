@@ -1,0 +1,18 @@
+const fs=require("fs");
+
+const htmlContent=`<!Doctype html>
+
+<html>
+<head>
+<meta>
+<meta>
+<title>hello</title>
+<link rel="stylesheet" src="style.css">
+</head>
+<body>
+<script src="script.js">
+</body>
+</html>
+ `
+
+fs.writeFileSync("index.html",htmlContent);
